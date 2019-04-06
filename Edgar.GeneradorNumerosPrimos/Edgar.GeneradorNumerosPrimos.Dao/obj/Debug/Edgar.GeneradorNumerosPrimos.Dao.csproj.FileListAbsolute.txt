@@ -1,0 +1,14 @@
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\obj\Debug\Edgar.GeneradorNumerosPrimos.Dao.csprojAssemblyReference.cache
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\obj\Debug\Edgar.GeneradorNumerosPrimos.Dao.csproj.CoreCompileInputs.cache
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\Edgar.GeneradorNumerosPrimos.Dao.dll
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\Edgar.GeneradorNumerosPrimos.Dao.pdb
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\Edgar.GeneradorNumerosPrimos.Contratos.dll
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\Edgar.GeneradorNumerosPrimos.Contratos.pdb
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\obj\Debug\Edgar.GeneradorNumerosPrimos.Dao.csproj.CopyComplete
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\obj\Debug\Edgar.GeneradorNumerosPrimos.Dao.dll
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\obj\Debug\Edgar.GeneradorNumerosPrimos.Dao.pdb
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\Edgar.GeneradorNumerosPrimos.Dao.dll.config
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\EntityFramework.dll
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\EntityFramework.SqlServer.dll
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\EntityFramework.xml
+c:\Projects\Edgar.GeneradorNumerosPrimos\Edgar.GeneradorNumerosPrimos.Dao\bin\Debug\EntityFramework.SqlServer.xml

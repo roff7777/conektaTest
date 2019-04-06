@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Generador de números primos</h1>
+
+    <label>Inicio</label>
+    <input type="number" id="rangoInicio" />
+    <label>Fin</label>
+    <input type="number" id="rangoFin" />
+    <button id="btn-solicitar">Solicitar</button>
+
+<div >
+    <ul class="receptor">
+
+    </ul>
+</div>
+
+
+<script>
+
+    $("body").delegate("#btn-solicitar", "click", function () {
+        $.ajax({
+            url: "GeneradorPrimos/GenerarGuardarSolicitud",
+            type: 'POST',
+            dataType: 'json',
+            async: false,
+            data: {
+                Inicial: $("#rangoInicio").val(),
+                Final: $("#rangoFin").val(),
+            },
+            success: function (response) {
+                $(".receptor").empty();
+                if (response.CantidadGenerada > 10) {
+                    alert(`Rango ${$("#rangoInicio").val()} - ${$("#rangoFin").val()} Resultado: ${response.CantidadGenerada}`);
+                }
+                for (var i = 0; i < response.Primos.length; i++) {
+                    $(".receptor").append(`<li>${response.Primos[i]}</li>`);
+                }
+            },
+            error: function () {
+                alert("hola errors");
+            }
+        });
+    });
+</script>
