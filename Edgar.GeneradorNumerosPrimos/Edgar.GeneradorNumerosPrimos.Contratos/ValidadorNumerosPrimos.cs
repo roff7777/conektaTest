@@ -10,21 +10,21 @@ namespace Edgar.GeneradorNumerosPrimos.Contratos
     {
         public static bool EsNumeroPrimo(int numero)
         {
-            var bandera = true;
-            for (int i = 2; i < numero; i++)
+            //TODO:Realizar con recursividad
+            int divisores = 0;
+            for(int i = 1; i<= numero; i++)
             {
-                if (numero % 2 == 0)
+                if(numero%i ==0)
                 {
-                    bandera = false;
+                    divisores++;
                 }
             }
 
-            if(numero != 1 && bandera)
+            if(divisores == 2)
             {
                 return true;
             }
             return false;
-            
         }
     }
 }

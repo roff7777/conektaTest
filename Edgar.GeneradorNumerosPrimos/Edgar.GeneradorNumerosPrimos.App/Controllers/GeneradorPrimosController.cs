@@ -28,7 +28,7 @@ namespace Edgar.GeneradorNumerosPrimos.App.Controllers
 
             solicitud.CantidadGenerada = primos.Length;
             solicitud.Primos = primos;
-            //acade.GuardarSolicitud(solicitud);
+            facade.GuardarSolicitud(solicitud);
 
             return Json(solicitud);
         }
